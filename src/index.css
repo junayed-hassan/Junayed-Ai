@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    animation: fadIn 1.5s;
+}
+@keyframes fadIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
