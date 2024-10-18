@@ -38,6 +38,11 @@
 
 .my-cart {
     @media (max-width: 426px) {
-        margin-top: 30% !important;
+        margin-bottom: 35% !important;
+    }
+}
+.my-cart {
+    @media (max-width: 768px) {
+        margin-bottom: 15%;
     }
 }

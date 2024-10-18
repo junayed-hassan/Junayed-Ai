@@ -20,7 +20,7 @@ function Sidebar() {
     await onSent(prompt)
   }
   return (
-    <div className="lg:min-h-screen min-h-[600px] inline-flex flex-col justify-between bg-green-50 py-6 px-4 font-outfit sidebar">
+    <div className="inline-flex flex-col justify-between bg-green-50 py-6 px-4 font-outfit sidebar">
         <div className="top">
             <MdOutlineMenu onClick={()=>setExtended(prev=>!prev)} className="text-2xl block ms-2.5 cursor-pointer"/>
             <div onClick={()=>newChat()} className="mt-[50px] inline-flex items-center gap-2.5 py-2.5 px-3.5 bg-green-100 rounded-[50px] text-xs text-gray-600 cursor-pointer">

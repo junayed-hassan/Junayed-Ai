@@ -19,9 +19,9 @@ function Main() {
   };
 
   return (
-    <div className="flex-1 pb-15vh relative lg:min-h-screen min-h-[700px]">
+    <div className="flex-1 pb-15vh relative">
       <div className="flex items-center justify-between text-base	py-3 px-5 text-[#585858]">
-        <p className='text-xl font-medium'><i>Junayed Hasan</i></p>
+        <p className='text-xl font-medium'><i>Junayed Hasan Ai</i></p>
         <img className='w-10 h-10 rounded-[50%] border-4 border-green-100' src={assets.user_icon} alt="#" />
       </div>
       <div className="max-w-[900px] m-auto">
@@ -71,7 +71,7 @@ function Main() {
               {input?<BiSend onClick={()=>onSent()} className='text-2xl cursor-pointer' />:null}
             </div>
           </div>
-          <p className='my-3 mx-auto text-center text-xs font-light mt-5'>Using Google Gemini API with React JS.   Junayed AI is developed it is an AI web like Google Gemini or ChatGPT.</p>
+          <p className='my-3 mx-auto text-center text-xs font-light mt-5'>Using Google Gemini API with React JS.   Junayed Ai is developed it is an Ai web, like Google Gemini or ChatGPT.</p>
         </div>
       </div>
     </div>

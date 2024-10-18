@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #root {
-    min-height: 100vh;
+    min-height: 100vh !important;
     display: flex;
     animation: fadIn 1.5s;
 }
