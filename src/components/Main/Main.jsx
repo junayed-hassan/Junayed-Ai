@@ -28,7 +28,7 @@ function Main() {
         {
           !showResult
           ? <>
-        <div className="m-6 text-5xl font-medium p-3 text-[#c4c7c5]">
+        <div className="m-6 text-5xl font-medium p-3 text-[#c4c7c5] ">
           <p>What can I help with?</p>
         </div>
         <div className="max-w-[420px] mt-[12%] my-cart">
