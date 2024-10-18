@@ -36,3 +36,8 @@
     }
 }
 
+.my-cart {
+    @media (max-width: 426px) {
+        margin-top: 30% !important;
+    }
+}

@@ -31,8 +31,8 @@ function Main() {
         <div className="m-6 text-5xl font-medium p-3 text-[#c4c7c5]">
           <p>What can I help with?</p>
         </div>
-        <div className="max-w-[420px] mt-24">
-          <div className=" p-4 bg-green-50 rounded-lg relative cursor-pointer hover:bg-green-100 ms-10">
+        <div className="max-w-[420px] mt-[12%] my-cart">
+          <div className=" p-4 bg-green-50 rounded-lg relative cursor-pointer hover:bg-green-100 mx-[5%]">
             <p className='text-sm	text-[#585858]'>As a web developer, I showcase my expertise through innovative projects on <span className='text-xl font-medium underline text-red-300'><a target='_blank' href="https://github.com/junayed-hassan">GitHub</a></span> and professional insights on <span className='text-xl font-medium underline text-red-300 '><a target='_blank' href="https://www.linkedin.com/in/junayed-hassan/">LinkedIn</a></span>. Visit my profiles to explore the latest in web development and connect for collaboration.</p>
           </div>
 
