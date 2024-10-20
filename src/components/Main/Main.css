@@ -35,10 +35,3 @@
         background-position: 800px 0px;
     }
 }
-
-
-.my-cart {
-    @media (max-width: 1040px) {
-        margin-top:60% !important;
-    }
-}

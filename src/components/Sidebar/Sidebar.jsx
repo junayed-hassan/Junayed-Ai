@@ -45,7 +45,7 @@ function Sidebar() {
         }
             
         </div>
-        <div className="">
+        {/* <div className="">
             <div className="flex items-start gap-2.5 p-2.5 pe-4 rounded-[50px] text-[#282828] cursor-pointer hover:bg-green-100">
                 <IoMdHelpCircleOutline onClick={()=>setHelp(prev=>!prev)} className="text-xl"/>
                 {help ? <p className="text-rose-400">null</p> :null}
@@ -61,7 +61,7 @@ function Sidebar() {
                 {settings ? <p className="text-rose-400">null</p> :null}
                 {extended ? <p>Settings</p> : null}
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }
