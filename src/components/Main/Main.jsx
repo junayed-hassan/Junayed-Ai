@@ -1,7 +1,6 @@
 import { assets } from '../../assets/assets';
-import { IoMicOutline } from "react-icons/io5";
 import { BiSend } from "react-icons/bi";
-import { useContext, useState} from 'react';
+import { useContext} from 'react';
 import { MdQuestionMark } from "react-icons/md";
 import { DiAsterisk } from "react-icons/di";
 import { Context } from '../../context/Context';
@@ -14,12 +13,12 @@ function Main() {
   // const [micOutline,setMicOutline] =  useState(false);
   const handleKeyPress = (e) => {
     if (e.key === 'Enter') {
-      setInput(onSent()).join(''); 
+      setInput(onSent())?.join(''); 
     }
   };
 
   return (
-    <div className="flex-1 pb-15vh relative">
+    <div className="flex-1 pb-15vh relative mb-12 pt-3">
       <div className="flex items-center justify-between text-base	py-3 px-5 text-[#585858]">
         <p className='text-xl font-medium'><i>Junayed Hasan Ai</i></p>
         <img className='w-10 h-10 rounded-[50%] border-4 border-green-100' src={assets.user_icon} alt="#" />
@@ -28,7 +27,7 @@ function Main() {
         {
           !showResult
           ? <>
-        <div className="m-3 text-5xl font-medium p-3 text-[#c4c7c5] max-w-[400px]">
+        <div className="m-3 text-5xl font-medium p-3 text-[#c4c7c5] max-w-[400px] pb-10">
           <p>What can I help with?</p>
         </div>
         <div className="max-w-[420px] mb-[5%] ">
